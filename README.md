@@ -59,13 +59,10 @@ All logging files in the training process, *e.g.*, log message, checkpoints, and
 1.  Train restoration network.
    ```bash
    # add the path to *pretrain_model_feature_extractor* in the following yaml
-   # the path to *pretrain_model_feature_extractor* is the model obtained in stage2
-   ./options/train/stage3_restoration_gan.yml
+   #  prepare the dataset path and pretrained model path in the (./options/train/stage3_restoration_gan.yml). The path to *pretrain_model_feature_extractor* is the model obtained in link 
    python mmsr/train.py -opt "options/train/stage3_restoration_gan.yml"
 
    # if you wish to train the restoration network with only mse loss
-   # prepare the dataset path and pretrained model path in the following yaml
-   ./options/train/stage3_restoration_mse.yml
    python mmsr/train.py -opt "options/train/stage3_restoration_mse.yml"
    ```
 
