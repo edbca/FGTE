@@ -30,8 +30,8 @@ We provide quick test code with the pretrained model.
 1. Modify the paths to dataset and pretrained model in the following yaml files for configuration.
 
     ```bash
-    ./options/test/test_C2_matching.yml
-    ./options/test/test_C2_matching_mse.yml
+    ./options/test/test_gan.yml
+    ./options/test/test_mse.yml
     ```
 
 1. Run test code for models trained using **GAN loss**.
