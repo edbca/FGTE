@@ -20,9 +20,6 @@ Please refer to [Datasets.md](datasets/DATASETS.md) for pre-processing and more 
 
 ## Get Started
 
-### Pretrained Models
-Downloading the pretrained models from this [link](https://drive.google.com/drive/folders/1dTkXMzeBrHelVQUEx5zib5MdmvqDaSd9?usp=sharing) and put them under `experiments/pretrained_models folder`.
-
 ### Test
 
 We provide quick test code with the pretrained model.
