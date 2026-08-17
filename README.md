@@ -1,7 +1,7 @@
 # FGTE
 
 This repository contains the implementation of the following paper:
-Fine-Grained Texture Enhancement via State-Space Module for Reference-based Image Super-Resolution
+Fine-Grained Texture Enhancement via Dynamic State Space Fusion for Reference-based Image Super-Resolution
 
 ## Overview
 
